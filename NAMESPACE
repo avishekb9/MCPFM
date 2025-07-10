@@ -1,0 +1,61 @@
+useDynLib(MCPFM, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+
+# Core MCP Functions
+export(createMCPAgent)
+export(establishMCPConnection)
+export(sendMCPMessage)
+export(receiveMCPMessage)
+export(terminateMCPConnection)
+
+# Network Dynamics
+export(createNetworkDynamics)
+export(updateNetworkState)
+export(calculateTransferEntropy)
+export(performWaveletDecomposition)
+export(getNetworkMetrics)
+
+# Agent-Based Model
+export(initializeAgentSystem)
+export(createHFTAgent)
+export(createMarketMaker)
+export(createInstitutionalInvestor)
+export(createRegulator)
+export(runAgentSimulation)
+
+# Risk Analysis
+export(calculateSystemicRisk)
+export(computeRiskIndex)
+export(monitorRiskMetrics)
+export(generateRiskReport)
+
+# Policy Tools
+export(simulatePolicy)
+export(analyzeMacroprudential)
+export(optimizeRegulation)
+
+# Visualization
+export(plotNetworkDynamics)
+export(visualizeRiskEvolution)
+export(createNetworkGraph)
+export(generateRiskHeatmap)
+
+# Data Processing
+export(loadMarketData)
+export(preprocessData)
+export(validateData)
+
+# Utility Functions
+export(setMCPParameters)
+export(getMCPStatus)
+export(exportResults)
+
+# Import necessary packages
+import(data.table)
+import(igraph)
+import(parallel)
+import(ggplot2)
+importFrom(stats, runif, rnorm, cor, var, sd, quantile)
+importFrom(utils, head, tail, str)
+importFrom(grDevices, colors, rainbow)
+importFrom(methods, new, is)

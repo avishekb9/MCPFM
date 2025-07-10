@@ -1,0 +1,84 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# pkgdown site
+docs/
+
+# translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
+
+# Large data files
+*.rds
+*.RData
+*.csv
+*.parquet
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Test outputs (keep structure but not large files)
+test_outputs/data/*.rds
+test_outputs/data/*.csv
+test_outputs/figures/*.png
+test_outputs/figures/*.pdf
+
+# Keep directory structure
+!test_outputs/
+!test_outputs/data/
+!test_outputs/figures/
+!test_outputs/reports/
+!test_outputs/data/.gitkeep
+!test_outputs/figures/.gitkeep
+!test_outputs/reports/.gitkeep

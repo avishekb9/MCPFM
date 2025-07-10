@@ -1,0 +1,130 @@
+Package: MCPFM
+Type: Package
+Title: Model Context Protocol Financial Markets
+Version: 1.0.0
+Date: 2025-07-10
+Authors@R: c(
+    person("WaveQTE", "Consortium", email = "research@waveqte.org", role = c("aut", "cre")),
+    person("Financial Network", "Research Lab", role = "ctb")
+)
+Description: Advanced R package implementing Model Context Protocol (MCP) for 
+    financial markets analysis. Provides multi-scale network dynamics modeling,
+    heterogeneous agent-based simulations, transfer entropy networks, systemic
+    risk measurement, and macroprudential policy analysis. Integrates cutting-edge
+    machine learning, quantum-inspired optimization, and behavioral finance 
+    approaches for next-generation financial risk management.
+License: MIT + file LICENSE
+URL: https://github.com/WaveQTE/MCPFM
+BugReports: https://github.com/WaveQTE/MCPFM/issues
+Depends: 
+    R (>= 4.0.0)
+Imports:
+    Rcpp (>= 1.0.0),
+    RcppArmadillo,
+    data.table (>= 1.14.0),
+    igraph (>= 1.3.0),
+    network,
+    sna,
+    Matrix,
+    parallel,
+    doParallel,
+    foreach,
+    wavelets,
+    wavethresh,
+    signal,
+    forecast,
+    quantmod,
+    PerformanceAnalytics,
+    RiskPortfolios,
+    copula,
+    rugarch,
+    rmgarch,
+    fGarch,
+    xts,
+    zoo,
+    TTR,
+    ggplot2,
+    plotly,
+    visNetwork,
+    DT,
+    shiny,
+    shinydashboard,
+    flexdashboard,
+    dplyr,
+    tidyr,
+    magrittr,
+    purrr,
+    stringr,
+    lubridate,
+    jsonlite,
+    httr,
+    curl,
+    RCurl,
+    xml2,
+    rvest,
+    sentimentr,
+    syuzhet,
+    tidytext,
+    tm,
+    topicmodels,
+    textmineR,
+    randomForest,
+    e1071,
+    xgboost,
+    keras,
+    tensorflow,
+    torch,
+    reticulate,
+    nloptr,
+    DEoptim,
+    GA,
+    ParamHelpers,
+    mlr3,
+    mlr3learners,
+    mlr3tuning,
+    MASS,
+    boot,
+    car,
+    lmtest,
+    sandwich,
+    vars,
+    tsDyn,
+    MTS,
+    rugarch,
+    rmgarch,
+    fGarch,
+    tseries,
+    urca,
+    fracdiff,
+    moments,
+    VineCopula,
+    energy,
+    Hmisc,
+    corrplot,
+    Cairo,
+    rgl,
+    misc3d,
+    scatterplot3d
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    covr,
+    devtools,
+    roxygen2,
+    pkgdown,
+    lintr,
+    goodpractice,
+    spelling
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo,
+    RcppEigen
+LazyData: true
+Encoding: UTF-8
+Language: en-US
+RoxygenNote: 7.2.3
+VignetteBuilder: knitr
+SystemRequirements: C++17
+NeedsCompilation: yes
+ByteCompile: true
