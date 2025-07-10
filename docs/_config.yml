@@ -1,0 +1,70 @@
+# GitHub Pages Configuration for MCPFM
+title: "MCPFM - Model Context Protocol Financial Markets"
+description: "Advanced R package for multi-scale network dynamics and systemic risk analysis in financial markets"
+url: "https://avishekb9.github.io"
+baseurl: "/MCPFM"
+
+# Site settings
+author: "WaveQTE Research Consortium"
+email: "research@waveqte.org"
+github_username: "avishekb9"
+repository: "avishekb9/MCPFM"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+lang: "en_US"
+logo: "/assets/logo.png"
+twitter:
+  username: ""
+  card: summary_large_image
+
+# Social links
+social_links:
+  github: "avishekb9/MCPFM"
+  email: "research@waveqte.org"
+
+# Google Analytics (uncomment and add your tracking ID)
+# google_analytics: "G-XXXXXXXXXX"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
+  - vendor/
+  - node_modules/
+  - Gemfile
+  - Gemfile.lock
+
+# Include files
+include:
+  - _pages
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
