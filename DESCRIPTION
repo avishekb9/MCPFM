@@ -44,6 +44,7 @@ Imports:
     zoo,
     TTR,
     ggplot2,
+    ggraph,
     plotly,
     visNetwork,
     DT,
