@@ -230,7 +230,7 @@ If you use this package in your research, please cite:
 
 ## Support
 
-- 📧 **Email:** research@waveqte.org
+- 📧 **Email:** bavisek@gmail.com
 - 🐛 **Issues:** [GitHub Issues](https://github.com/avishekb9/MCPFM/issues)
 - 📚 **Documentation:** [Package Website](https://avishekb9.github.io/MCPFM/)
 
