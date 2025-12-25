@@ -221,7 +221,7 @@ If you use this package in your research, please cite:
 ```bibtex
 @misc{mcpfm2025,
   title={MCPFM: Model Context Protocol Financial Markets},
-  author={WaveQTE Research Consortium},
+  author={Avishek Bhandari},
   year={2025},
   url={https://github.com/avishekb9/MCPFM},
   note={R package version 1.0.0}
